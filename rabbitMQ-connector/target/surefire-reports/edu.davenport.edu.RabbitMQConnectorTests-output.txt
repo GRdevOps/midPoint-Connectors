@@ -1,5 +1,5 @@
-Thread Id: 1	Time: 2020-05-11 12:48:27.656	Class: org.identityconnectors.framework.api.operations.CreateApiOp	Method: create	Level: OK	Message: Enter: create(ObjectClass: __ACCOUNT__, [], OperationOptions: {})
-Thread Id: 1	Time: 2020-05-11 12:48:27.660	Class: edu.davenport.edu.RabbitMQConnector	Method: init(RabbitMQConnector.java:76)	Level: OK	Message: Connector edu.davenport.edu.RabbitMQConnector successfully inited
-Thread Id: 1	Time: 2020-05-11 12:48:27.664	Class: org.identityconnectors.framework.spi.operations.CreateOp	Method: create	Level: OK	Message: Enter: create(ObjectClass: __ACCOUNT__, [], OperationOptions: {})
-Thread Id: 1	Time: 2020-05-11 12:48:27.964	Class: org.identityconnectors.framework.spi.operations.CreateOp	Method: create	Level: OK	Message: Return: Attribute: {Name=__UID__, Value=[2f24378b-1a07-46c5-a970-7f4c416514b3]}
-Thread Id: 1	Time: 2020-05-11 12:48:27.966	Class: org.identityconnectors.framework.api.operations.CreateApiOp	Method: create	Level: OK	Message: Return: Attribute: {Name=__UID__, Value=[2f24378b-1a07-46c5-a970-7f4c416514b3]}
+Thread Id: 1	Time: 2020-05-11 13:35:06.215	Class: org.identityconnectors.framework.api.operations.CreateApiOp	Method: create	Level: OK	Message: Enter: create(ObjectClass: __ACCOUNT__, [], OperationOptions: {})
+Thread Id: 1	Time: 2020-05-11 13:35:06.220	Class: edu.davenport.edu.RabbitMQConnector	Method: init(RabbitMQConnector.java:76)	Level: OK	Message: Connector edu.davenport.edu.RabbitMQConnector successfully inited
+Thread Id: 1	Time: 2020-05-11 13:35:06.225	Class: org.identityconnectors.framework.spi.operations.CreateOp	Method: create	Level: OK	Message: Enter: create(ObjectClass: __ACCOUNT__, [], OperationOptions: {})
+Thread Id: 1	Time: 2020-05-11 13:35:06.566	Class: org.identityconnectors.framework.spi.operations.CreateOp	Method: create	Level: OK	Message: Return: Attribute: {Name=__UID__, Value=[01ea3d23-367f-4440-ae6f-37d506fbb25f]}
+Thread Id: 1	Time: 2020-05-11 13:35:06.567	Class: org.identityconnectors.framework.api.operations.CreateApiOp	Method: create	Level: OK	Message: Return: Attribute: {Name=__UID__, Value=[01ea3d23-367f-4440-ae6f-37d506fbb25f]}

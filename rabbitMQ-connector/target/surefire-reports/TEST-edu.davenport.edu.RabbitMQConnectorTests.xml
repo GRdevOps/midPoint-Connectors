@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.davenport.edu.RabbitMQConnectorTests" time="0.683" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.davenport.edu.RabbitMQConnectorTests" time="0.703" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="c:\Users\klevalley2\Documents\VS Code Workspace\davenport-connectors\rabbitMQ-connector\target\test-classes;c:\Users\klevalley2\Documents\VS Code Workspace\davenport-connectors\rabbitMQ-connector\target\classes;C:\Users\klevalley2\.m2\repository\net\tirasa\connid\connector-framework\1.5.0.1\connector-framework-1.5.0.1.jar;C:\Users\klevalley2\.m2\repository\net\tirasa\connid\connector-framework-internal\1.5.0.1\connector-framework-internal-1.5.0.1.jar;C:\Users\klevalley2\.m2\repository\net\tirasa\connid\connector-test-common\1.5.0.1\connector-test-common-1.5.0.1.jar;C:\Users\klevalley2\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\klevalley2\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\klevalley2\.m2\repository\com\rabbitmq\amqp-client\4.0.2\amqp-client-4.0.2.jar;C:\Users\klevalley2\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\klevalley2\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;"/>
+    <property name="java.class.path" value="c:\Users\klevalley2\Documents\VS Code Workspace\github repo&apos;s\midPoint-Connectors\rabbitMQ-connector\target\test-classes;c:\Users\klevalley2\Documents\VS Code Workspace\github repo&apos;s\midPoint-Connectors\rabbitMQ-connector\target\classes;C:\Users\klevalley2\.m2\repository\net\tirasa\connid\connector-framework\1.5.0.1\connector-framework-1.5.0.1.jar;C:\Users\klevalley2\.m2\repository\net\tirasa\connid\connector-framework-internal\1.5.0.1\connector-framework-internal-1.5.0.1.jar;C:\Users\klevalley2\.m2\repository\net\tirasa\connid\connector-test-common\1.5.0.1\connector-test-common-1.5.0.1.jar;C:\Users\klevalley2\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\klevalley2\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\klevalley2\.m2\repository\com\rabbitmq\amqp-client\4.8.0\amqp-client-4.8.0.jar;C:\Users\klevalley2\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\klevalley2\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\klevalley2\Documents\VS Code Workspace\dev\jdk-13.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\KLEVAL~1\AppData\Local\Temp\surefire13641243544382469834\surefirebooter10319797810758874686.jar C:\Users\klevalley2\AppData\Local\Temp\surefire13641243544382469834 2020-05-11T12-48-26_182-jvmRun1 surefire447212494430968306tmp surefire_016680225063625385883tmp"/>
+    <property name="sun.java.command" value="C:\Users\KLEVAL~1\AppData\Local\Temp\surefire15139171828534218444\surefirebooter16152558124240893275.jar C:\Users\klevalley2\AppData\Local\Temp\surefire15139171828534218444 2020-05-11T13-35-04_688-jvmRun1 surefire5562471942627398689tmp surefire_013870056569208587871tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="c:\Users\klevalley2\Documents\VS Code Workspace\davenport-connectors\rabbitMQ-connector\target\test-classes;c:\Users\klevalley2\Documents\VS Code Workspace\davenport-connectors\rabbitMQ-connector\target\classes;C:\Users\klevalley2\.m2\repository\net\tirasa\connid\connector-framework\1.5.0.1\connector-framework-1.5.0.1.jar;C:\Users\klevalley2\.m2\repository\net\tirasa\connid\connector-framework-internal\1.5.0.1\connector-framework-internal-1.5.0.1.jar;C:\Users\klevalley2\.m2\repository\net\tirasa\connid\connector-test-common\1.5.0.1\connector-test-common-1.5.0.1.jar;C:\Users\klevalley2\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\klevalley2\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\klevalley2\.m2\repository\com\rabbitmq\amqp-client\4.0.2\amqp-client-4.0.2.jar;C:\Users\klevalley2\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\klevalley2\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;"/>
+    <property name="surefire.test.class.path" value="c:\Users\klevalley2\Documents\VS Code Workspace\github repo&apos;s\midPoint-Connectors\rabbitMQ-connector\target\test-classes;c:\Users\klevalley2\Documents\VS Code Workspace\github repo&apos;s\midPoint-Connectors\rabbitMQ-connector\target\classes;C:\Users\klevalley2\.m2\repository\net\tirasa\connid\connector-framework\1.5.0.1\connector-framework-1.5.0.1.jar;C:\Users\klevalley2\.m2\repository\net\tirasa\connid\connector-framework-internal\1.5.0.1\connector-framework-internal-1.5.0.1.jar;C:\Users\klevalley2\.m2\repository\net\tirasa\connid\connector-test-common\1.5.0.1\connector-test-common-1.5.0.1.jar;C:\Users\klevalley2\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\klevalley2\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\klevalley2\.m2\repository\com\rabbitmq\amqp-client\4.8.0\amqp-client-4.8.0.jar;C:\Users\klevalley2\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\klevalley2\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\klevalley2"/>
     <property name="user.language" value="en"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2020-01-14"/>
     <property name="java.home" value="C:\Users\klevalley2\Documents\VS Code Workspace\dev\jdk-13.0.2"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="c:\Users\klevalley2\Documents\VS Code Workspace\davenport-connectors\rabbitMQ-connector"/>
+    <property name="basedir" value="c:\Users\klevalley2\Documents\VS Code Workspace\github repo&apos;s\midPoint-Connectors\rabbitMQ-connector"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\KLEVAL~1\AppData\Local\Temp\surefire13641243544382469834\surefirebooter10319797810758874686.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\KLEVAL~1\AppData\Local\Temp\surefire15139171828534218444\surefirebooter16152558124240893275.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="13.0.2+8"/>
@@ -44,7 +44,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\KLEVAL~1\AppData\Local\Temp\"/>
     <property name="java.version" value="13.0.2"/>
-    <property name="user.dir" value="c:\Users\klevalley2\Documents\VS Code Workspace\davenport-connectors\rabbitMQ-connector"/>
+    <property name="user.dir" value="c:\Users\klevalley2\Documents\VS Code Workspace\github repo&apos;s\midPoint-Connectors\rabbitMQ-connector"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -55,5 +55,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="basic" classname="edu.davenport.edu.RabbitMQConnectorTests" time="0.544"/>
+  <testcase name="basic" classname="edu.davenport.edu.RabbitMQConnectorTests" time="0.57"/>
 </testsuite>
